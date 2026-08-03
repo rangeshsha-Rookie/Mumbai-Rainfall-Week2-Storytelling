@@ -1,0 +1,6 @@
+# Language stats for GitHub Linguist
+src/*.py linguist-language=Python
+notebooks/*.ipynb linguist-language=Jupyter Notebook
+*.md linguist-documentation
+*.png linguist-documentation
+*.txt linguist-documentation
