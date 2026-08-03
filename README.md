@@ -16,44 +16,48 @@ This project presents a **visual storytelling dashboard** built on Mumbai rainfa
 
 ---
 
+## 📊 The 5-Chart Visual Story
+
+### Figure 1 — Opening Context
+![Fig1](visualizations/Mumbai%20receives%20over%202%2C000mm%20every%20year%20%E2%80%94%20almost%20all%20in%20monsoon.png)
+
+### Figure 2 — Seasonal Pattern
+![Fig2](visualizations/June%E2%80%93September%20delivers%2080%25%20of%20annual%20rainfall.png)
+
+### Figure 3 — Long-Term Trend
+![Fig3](visualizations/Increasing%20variability%20since%20the%201990s.png)
+
+### Figure 4 — Extreme Events
+![Fig4](visualizations/Extreme%20days%20(200mm)%20more%20frequent%20since%202005.png)
+
+### Figure 5 — Decade × Month Heatmap
+![Fig5](visualizations/September%20rainfall%20intensifying%20%E2%80%94%20monsoon%20delaying.png)
+
+---
+
 ## 🗂️ Repository Structure
 
 ```
 Mumbai-Rainfall-Week2-Storytelling/
 │
 ├── 📓 notebooks/
-│   └── mumbai_rainfall_week2.ipynb     ← Full Colab-ready notebook (5 charts)
+│   └── mumbai_rainfall_week2.ipynb     ← Full Colab-ready notebook
 │
 ├── 🐍 src/
-│   ├── data_loader.py                  ← Load & clean rainfall data
-│   ├── visualizations.py               ← All 5 chart functions
+│   ├── data_loader.py
+│   ├── visualizations.py
 │   └── __init__.py
 │
-├── 📊 visualizations/
-│   └── README.md                       ← Chart index (upload PNGs here after running)
+├── 📊 visualizations/                  ← All 5 PNGs uploaded ✅
 │
 ├── 📁 data/
-│   └── README_data.md                  ← Dataset download guide (IMD + Kaggle)
+│   └── README_data.md
 │
-├── 📁 report/
-│   └── README.md                       ← Upload Week2_Report_Rangesh_Gupta.docx here
+├── 📁 report/                          ← Upload Week2_Report_Rangesh_Gupta.docx here
 │
 ├── 📄 requirements.txt
-├── 📄 .gitattributes
-└── 📄 README.md
+└── 📄 .gitattributes
 ```
-
----
-
-## 📊 The 5-Chart Visual Story
-
-| Figure | Chart Type | Question Answered | Story Role |
-|--------|-----------|-------------------|------------|
-| Fig 1 | Bar chart | How much rain does Mumbai get each year? | Opening context |
-| Fig 2 | Bar/Pie chart | Which months receive the most rain? | Seasonal pattern |
-| Fig 3 | Line chart + trend | Has rainfall changed over decades? | Trend & climate |
-| Fig 4 | Bar chart (annotated) | When do extreme rainfall events occur? | Local impact |
-| Fig 5 | Heatmap (Year × Month) | Which months in which decades are getting wetter? | Climax insight |
 
 ---
 
@@ -70,14 +74,9 @@ Mumbai-Rainfall-Week2-Storytelling/
 ## 🚀 How to Run
 
 ```bash
-# 1. Clone the repo
 git clone https://github.com/rangeshsha-Rookie/Mumbai-Rainfall-Week2-Storytelling.git
 cd Mumbai-Rainfall-Week2-Storytelling
-
-# 2. Install dependencies
 pip install -r requirements.txt
-
-# 3. Run notebook in Colab or Jupyter
 jupyter notebook notebooks/mumbai_rainfall_week2.ipynb
 ```
 
